@@ -4,30 +4,70 @@
     font-family: "Roboto";
     box-sizing: border-box;
 }
-.header{
+
+.header {
     display: flex;
     background-color: #1F2937;
     justify-content: flex-start;
     padding: 21px;
     padding-left: 0px;
 }
-.hero-logo-text{
+
+.hero-logo-text {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 214px;
     flex: 1 1 0;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-evenly;
     flex: 1 1 0;
     align-items: center;
 }
-.nav h3{
+
+.nav h3 {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 300;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    column-gap: 50px;
+    padding: 100px 130px;
+    align-items: center;
+
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    row-gap: 10px;
+}
+
+.hero-image{
+    flex: 1 1 0;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-button button{
+background-color: #3882F6;
+color: #FFF;
+padding: 5px 26px;
+border-radius: 7px;
+border: none;
 }
