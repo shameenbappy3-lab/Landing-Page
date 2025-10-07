@@ -2,4 +2,32 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto";
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: flex-start;
+    padding: 21px;
+    padding-left: 0px;
+}
+.hero-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 214px;
+    flex: 1 1 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 1 0;
+    align-items: center;
+}
+.nav h3{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+.nav a{
+    text-decoration: none;
 }
